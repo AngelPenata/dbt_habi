@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: habi_propiedades_clientes
+    meta:
+      owner: Angel Penata
+    description: "seed de propiedades de clientes"
+    columns:
+      - name: area_m2
+        tests:
+          - not_null
+ 

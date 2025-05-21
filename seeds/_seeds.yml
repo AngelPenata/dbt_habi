@@ -1,0 +1,12 @@
+version: 2
+
+seeds:
+
+  - name: base_prueba_bi_mid
+    docs:
+      node_color: "#CD7F32"
+    config:
+      tags: ["habi", "seed"]
+    description: 'Esta archivo contiene datos para la prueba tecnica  de habi vancante BI Mid.'
+    meta:
+      owner: Angel Peñata
