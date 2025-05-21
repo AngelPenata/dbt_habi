@@ -9,11 +9,11 @@ import os
 
 # --- Conexión ---
 conn = psycopg2.connect(
-    host="redshift-cluster-1.ci27ispoiqnv.us-east-2.redshift.amazonaws.com",
-    port="5439",
-    database="dev",
-    user="awsuser",
-    password="VNIFWgwygd655*&"
+    host="********",
+    port="****",
+    database="***",
+    user="*****",
+    password="********"
 )
 cursor = conn.cursor()
 
